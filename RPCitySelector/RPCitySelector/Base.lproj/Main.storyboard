@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cPf-OA-sf2">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="7xh-TV-2jL">
+            <objects>
+                <viewController id="cPf-OA-sf2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eDT-IO-CJv"/>
+                        <viewControllerLayoutGuide type="bottom" id="bSj-ql-12s"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jej-gU-uHZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="城市选择器Demo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qs8-J6-x0r">
+                                <rect key="frame" x="16" y="34" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="jzV-w7-JHF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0042188814839999996" green="0.84569472069999996" blue="0.78639632459999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="亲，你还没选择的城市！" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uvy-gR-WLa">
+                                <rect key="frame" x="111" y="143" width="248" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="WgS-S9-UrO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.29160442949999998" green="0.56568789480000004" blue="0.88535696269999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你的选择：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yaR-WL-qqW">
+                                <rect key="frame" x="16" y="144" width="87" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="UMM-K5-ZJ6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0042188814839999996" green="0.84569472069999996" blue="0.78639632459999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYg-Am-mG2">
+                                <rect key="frame" x="16" y="206" width="343" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.87715886919999997" blue="0.2215827078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="N2b-hZ-esV"/>
+                                </constraints>
+                                <state key="normal" title="选择城市">
+                                    <color key="titleColor" red="0.0042188814839999996" green="0.84569472069999996" blue="0.78639632459999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didClickedButtonEvent:" destination="cPf-OA-sf2" eventType="touchUpInside" id="hIu-FY-F4k"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uvy-gR-WLa" firstAttribute="leading" secondItem="yaR-WL-qqW" secondAttribute="trailing" constant="8" id="0zs-sq-KP8"/>
+                            <constraint firstItem="Qs8-J6-x0r" firstAttribute="trailing" secondItem="jej-gU-uHZ" secondAttribute="trailingMargin" id="4vm-cF-cSV"/>
+                            <constraint firstItem="Qs8-J6-x0r" firstAttribute="leading" secondItem="jej-gU-uHZ" secondAttribute="leadingMargin" id="8v8-y3-83B"/>
+                            <constraint firstItem="uvy-gR-WLa" firstAttribute="top" secondItem="Qs8-J6-x0r" secondAttribute="bottom" constant="88" id="Fyv-hv-ATA"/>
+                            <constraint firstItem="uvy-gR-WLa" firstAttribute="trailing" secondItem="jej-gU-uHZ" secondAttribute="trailingMargin" id="Np7-1L-uQE"/>
+                            <constraint firstItem="uvy-gR-WLa" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="jej-gU-uHZ" secondAttribute="leadingMargin" id="P92-Tc-eLM"/>
+                            <constraint firstItem="jYg-Am-mG2" firstAttribute="top" secondItem="uvy-gR-WLa" secondAttribute="bottom" constant="42" id="Q3X-65-ebK"/>
+                            <constraint firstItem="jYg-Am-mG2" firstAttribute="leading" secondItem="jej-gU-uHZ" secondAttribute="leadingMargin" id="cL9-KX-uli"/>
+                            <constraint firstItem="jYg-Am-mG2" firstAttribute="trailing" secondItem="jej-gU-uHZ" secondAttribute="trailingMargin" id="hJY-z5-YEL"/>
+                            <constraint firstItem="yaR-WL-qqW" firstAttribute="top" secondItem="Qs8-J6-x0r" secondAttribute="bottom" constant="89" id="jn2-bL-yeW"/>
+                            <constraint firstItem="Qs8-J6-x0r" firstAttribute="top" secondItem="eDT-IO-CJv" secondAttribute="bottom" constant="14" id="mHZ-Km-pag"/>
+                            <constraint firstItem="yaR-WL-qqW" firstAttribute="leading" secondItem="jej-gU-uHZ" secondAttribute="leadingMargin" id="o4a-SL-wCI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="uvy-gR-WLa" id="vKi-xX-U87"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="skN-my-rTx" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

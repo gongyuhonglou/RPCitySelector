@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040ACAD0207328BD00AC34CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACACF207328BD00AC34CE /* AppDelegate.m */; };
+		040ACAD3207328BD00AC34CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACAD2207328BD00AC34CE /* ViewController.m */; };
+		040ACAD6207328BD00AC34CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040ACAD4207328BD00AC34CE /* Main.storyboard */; };
+		040ACAD8207328BD00AC34CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040ACAD7207328BD00AC34CE /* Assets.xcassets */; };
+		040ACADB207328BD00AC34CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040ACAD9207328BD00AC34CE /* LaunchScreen.storyboard */; };
+		040ACADE207328BD00AC34CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACADD207328BD00AC34CE /* main.m */; };
+		040ACAE8207328BD00AC34CE /* RPCitySelectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACAE7207328BD00AC34CE /* RPCitySelectorTests.m */; };
+		040ACAF3207328BD00AC34CE /* RPCitySelectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACAF2207328BD00AC34CE /* RPCitySelectorUITests.m */; };
+		040ACB1B20732ABD00AC34CE /* RPAreaDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACB0720732ABD00AC34CE /* RPAreaDataManager.m */; };
+		040ACB1C20732ABD00AC34CE /* shop_area.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 040ACB0920732ABD00AC34CE /* shop_area.sqlite */; };
+		040ACB1D20732ABD00AC34CE /* RPLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACB0C20732ABD00AC34CE /* RPLocation.m */; };
+		040ACB1E20732ABD00AC34CE /* RPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACB0E20732ABD00AC34CE /* RPButton.m */; };
+		040ACB1F20732ABD00AC34CE /* RPCityCollectionFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACB1020732ABD00AC34CE /* RPCityCollectionFlowLayout.m */; };
+		040ACB2020732ABD00AC34CE /* RPCityCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACB1220732ABD00AC34CE /* RPCityCollectionViewCell.m */; };
+		040ACB2120732ABD00AC34CE /* RPCityHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACB1420732ABD00AC34CE /* RPCityHeaderView.m */; };
+		040ACB2220732ABD00AC34CE /* RPCityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACB1620732ABD00AC34CE /* RPCityTableViewCell.m */; };
+		040ACB2320732ABD00AC34CE /* RPCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACB1820732ABD00AC34CE /* RPCityViewController.m */; };
+		040ACB2420732ABD00AC34CE /* RPSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACB1A20732ABD00AC34CE /* RPSearchView.m */; };
+		8820DA0194359B1A5B7A3EFE /* libPods-RPCitySelector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6A80724E45D708EEFF65F5 /* libPods-RPCitySelector.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		040ACAE4207328BD00AC34CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040ACAC3207328BD00AC34CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040ACACA207328BD00AC34CE;
+			remoteInfo = RPCitySelector;
+		};
+		040ACAEF207328BD00AC34CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040ACAC3207328BD00AC34CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040ACACA207328BD00AC34CE;
+			remoteInfo = RPCitySelector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040ACACB207328BD00AC34CE /* RPCitySelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPCitySelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040ACACE207328BD00AC34CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		040ACACF207328BD00AC34CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		040ACAD1207328BD00AC34CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		040ACAD2207328BD00AC34CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		040ACAD5207328BD00AC34CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040ACAD7207328BD00AC34CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040ACADA207328BD00AC34CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040ACADC207328BD00AC34CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040ACADD207328BD00AC34CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040ACAE3207328BD00AC34CE /* RPCitySelectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPCitySelectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		040ACAE7207328BD00AC34CE /* RPCitySelectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPCitySelectorTests.m; sourceTree = "<group>"; };
+		040ACAE9207328BD00AC34CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040ACAEE207328BD00AC34CE /* RPCitySelectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPCitySelectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		040ACAF2207328BD00AC34CE /* RPCitySelectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPCitySelectorUITests.m; sourceTree = "<group>"; };
+		040ACAF4207328BD00AC34CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040ACB002073291C00AC34CE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		040ACB012073291C00AC34CE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		040ACB022073292400AC34CE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		040ACB032073292400AC34CE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		040ACB0620732ABD00AC34CE /* RPAreaDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPAreaDataManager.h; sourceTree = "<group>"; };
+		040ACB0720732ABD00AC34CE /* RPAreaDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPAreaDataManager.m; sourceTree = "<group>"; };
+		040ACB0920732ABD00AC34CE /* shop_area.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = shop_area.sqlite; sourceTree = "<group>"; };
+		040ACB0B20732ABD00AC34CE /* RPLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPLocation.h; sourceTree = "<group>"; };
+		040ACB0C20732ABD00AC34CE /* RPLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPLocation.m; sourceTree = "<group>"; };
+		040ACB0D20732ABD00AC34CE /* RPButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPButton.h; sourceTree = "<group>"; };
+		040ACB0E20732ABD00AC34CE /* RPButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPButton.m; sourceTree = "<group>"; };
+		040ACB0F20732ABD00AC34CE /* RPCityCollectionFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPCityCollectionFlowLayout.h; sourceTree = "<group>"; };
+		040ACB1020732ABD00AC34CE /* RPCityCollectionFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPCityCollectionFlowLayout.m; sourceTree = "<group>"; };
+		040ACB1120732ABD00AC34CE /* RPCityCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPCityCollectionViewCell.h; sourceTree = "<group>"; };
+		040ACB1220732ABD00AC34CE /* RPCityCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPCityCollectionViewCell.m; sourceTree = "<group>"; };
+		040ACB1320732ABD00AC34CE /* RPCityHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPCityHeaderView.h; sourceTree = "<group>"; };
+		040ACB1420732ABD00AC34CE /* RPCityHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPCityHeaderView.m; sourceTree = "<group>"; };
+		040ACB1520732ABD00AC34CE /* RPCityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPCityTableViewCell.h; sourceTree = "<group>"; };
+		040ACB1620732ABD00AC34CE /* RPCityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPCityTableViewCell.m; sourceTree = "<group>"; };
+		040ACB1720732ABD00AC34CE /* RPCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPCityViewController.h; sourceTree = "<group>"; };
+		040ACB1820732ABD00AC34CE /* RPCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPCityViewController.m; sourceTree = "<group>"; };
+		040ACB1920732ABD00AC34CE /* RPSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSearchView.h; sourceTree = "<group>"; };
+		040ACB1A20732ABD00AC34CE /* RPSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSearchView.m; sourceTree = "<group>"; };
+		5408F55B1CA5973310C2274C /* Pods-RPCitySelector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPCitySelector.release.xcconfig"; path = "Pods/Target Support Files/Pods-RPCitySelector/Pods-RPCitySelector.release.xcconfig"; sourceTree = "<group>"; };
+		BE6A80724E45D708EEFF65F5 /* libPods-RPCitySelector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RPCitySelector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC43A9C279A9C46C566A9F50 /* Pods-RPCitySelector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPCitySelector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RPCitySelector/Pods-RPCitySelector.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040ACAC8207328BD00AC34CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8820DA0194359B1A5B7A3EFE /* libPods-RPCitySelector.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040ACAE0207328BD00AC34CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040ACAEB207328BD00AC34CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040ACAC2207328BD00AC34CE = {
+			isa = PBXGroup;
+			children = (
+				040ACACD207328BD00AC34CE /* RPCitySelector */,
+				040ACAE6207328BD00AC34CE /* RPCitySelectorTests */,
+				040ACAF1207328BD00AC34CE /* RPCitySelectorUITests */,
+				040ACACC207328BD00AC34CE /* Products */,
+				C2483148FD508BBC452477C2 /* Pods */,
+				FF3C0A7E3BE3650B932FF088 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		040ACACC207328BD00AC34CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040ACACB207328BD00AC34CE /* RPCitySelector.app */,
+				040ACAE3207328BD00AC34CE /* RPCitySelectorTests.xctest */,
+				040ACAEE207328BD00AC34CE /* RPCitySelectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040ACACD207328BD00AC34CE /* RPCitySelector */ = {
+			isa = PBXGroup;
+			children = (
+				040ACB0420732ABD00AC34CE /* RPCityViewController */,
+				040ACACE207328BD00AC34CE /* AppDelegate.h */,
+				040ACACF207328BD00AC34CE /* AppDelegate.m */,
+				040ACAD1207328BD00AC34CE /* ViewController.h */,
+				040ACAD2207328BD00AC34CE /* ViewController.m */,
+				040ACAD4207328BD00AC34CE /* Main.storyboard */,
+				040ACAD7207328BD00AC34CE /* Assets.xcassets */,
+				040ACAD9207328BD00AC34CE /* LaunchScreen.storyboard */,
+				040ACADC207328BD00AC34CE /* Info.plist */,
+				040ACADD207328BD00AC34CE /* main.m */,
+			);
+			path = RPCitySelector;
+			sourceTree = "<group>";
+		};
+		040ACAE6207328BD00AC34CE /* RPCitySelectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				040ACAE7207328BD00AC34CE /* RPCitySelectorTests.m */,
+				040ACAE9207328BD00AC34CE /* Info.plist */,
+			);
+			path = RPCitySelectorTests;
+			sourceTree = "<group>";
+		};
+		040ACAF1207328BD00AC34CE /* RPCitySelectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				040ACAF2207328BD00AC34CE /* RPCitySelectorUITests.m */,
+				040ACAF4207328BD00AC34CE /* Info.plist */,
+			);
+			path = RPCitySelectorUITests;
+			sourceTree = "<group>";
+		};
+		040ACB0420732ABD00AC34CE /* RPCityViewController */ = {
+			isa = PBXGroup;
+			children = (
+				040ACB0520732ABD00AC34CE /* AreaDataManager */,
+				040ACB0820732ABD00AC34CE /* AreaDB */,
+				040ACB0A20732ABD00AC34CE /* Location */,
+				040ACB0D20732ABD00AC34CE /* RPButton.h */,
+				040ACB0E20732ABD00AC34CE /* RPButton.m */,
+				040ACB0F20732ABD00AC34CE /* RPCityCollectionFlowLayout.h */,
+				040ACB1020732ABD00AC34CE /* RPCityCollectionFlowLayout.m */,
+				040ACB1120732ABD00AC34CE /* RPCityCollectionViewCell.h */,
+				040ACB1220732ABD00AC34CE /* RPCityCollectionViewCell.m */,
+				040ACB1320732ABD00AC34CE /* RPCityHeaderView.h */,
+				040ACB1420732ABD00AC34CE /* RPCityHeaderView.m */,
+				040ACB1520732ABD00AC34CE /* RPCityTableViewCell.h */,
+				040ACB1620732ABD00AC34CE /* RPCityTableViewCell.m */,
+				040ACB1720732ABD00AC34CE /* RPCityViewController.h */,
+				040ACB1820732ABD00AC34CE /* RPCityViewController.m */,
+				040ACB1920732ABD00AC34CE /* RPSearchView.h */,
+				040ACB1A20732ABD00AC34CE /* RPSearchView.m */,
+			);
+			path = RPCityViewController;
+			sourceTree = SOURCE_ROOT;
+		};
+		040ACB0520732ABD00AC34CE /* AreaDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				040ACB0620732ABD00AC34CE /* RPAreaDataManager.h */,
+				040ACB0720732ABD00AC34CE /* RPAreaDataManager.m */,
+			);
+			path = AreaDataManager;
+			sourceTree = "<group>";
+		};
+		040ACB0820732ABD00AC34CE /* AreaDB */ = {
+			isa = PBXGroup;
+			children = (
+				040ACB0920732ABD00AC34CE /* shop_area.sqlite */,
+			);
+			path = AreaDB;
+			sourceTree = "<group>";
+		};
+		040ACB0A20732ABD00AC34CE /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				040ACB0B20732ABD00AC34CE /* RPLocation.h */,
+				040ACB0C20732ABD00AC34CE /* RPLocation.m */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		C2483148FD508BBC452477C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC43A9C279A9C46C566A9F50 /* Pods-RPCitySelector.debug.xcconfig */,
+				5408F55B1CA5973310C2274C /* Pods-RPCitySelector.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF3C0A7E3BE3650B932FF088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE6A80724E45D708EEFF65F5 /* libPods-RPCitySelector.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040ACACA207328BD00AC34CE /* RPCitySelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040ACAF7207328BD00AC34CE /* Build configuration list for PBXNativeTarget "RPCitySelector" */;
+			buildPhases = (
+				174D8448185E19F400CFAB1A /* [CP] Check Pods Manifest.lock */,
+				040ACAC7207328BD00AC34CE /* Sources */,
+				040ACAC8207328BD00AC34CE /* Frameworks */,
+				040ACAC9207328BD00AC34CE /* Resources */,
+				42D8C57B4CA98B59262B7D6A /* [CP] Embed Pods Frameworks */,
+				B7C3CCA1379A0335446D52C2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPCitySelector;
+			productName = RPCitySelector;
+			productReference = 040ACACB207328BD00AC34CE /* RPCitySelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		040ACAE2207328BD00AC34CE /* RPCitySelectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040ACAFA207328BD00AC34CE /* Build configuration list for PBXNativeTarget "RPCitySelectorTests" */;
+			buildPhases = (
+				040ACADF207328BD00AC34CE /* Sources */,
+				040ACAE0207328BD00AC34CE /* Frameworks */,
+				040ACAE1207328BD00AC34CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040ACAE5207328BD00AC34CE /* PBXTargetDependency */,
+			);
+			name = RPCitySelectorTests;
+			productName = RPCitySelectorTests;
+			productReference = 040ACAE3207328BD00AC34CE /* RPCitySelectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		040ACAED207328BD00AC34CE /* RPCitySelectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040ACAFD207328BD00AC34CE /* Build configuration list for PBXNativeTarget "RPCitySelectorUITests" */;
+			buildPhases = (
+				040ACAEA207328BD00AC34CE /* Sources */,
+				040ACAEB207328BD00AC34CE /* Frameworks */,
+				040ACAEC207328BD00AC34CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040ACAF0207328BD00AC34CE /* PBXTargetDependency */,
+			);
+			name = RPCitySelectorUITests;
+			productName = RPCitySelectorUITests;
+			productReference = 040ACAEE207328BD00AC34CE /* RPCitySelectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040ACAC3207328BD00AC34CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = WRP;
+				TargetAttributes = {
+					040ACACA207328BD00AC34CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					040ACAE2207328BD00AC34CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 040ACACA207328BD00AC34CE;
+					};
+					040ACAED207328BD00AC34CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 040ACACA207328BD00AC34CE;
+					};
+				};
+			};
+			buildConfigurationList = 040ACAC6207328BD00AC34CE /* Build configuration list for PBXProject "RPCitySelector" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040ACAC2207328BD00AC34CE;
+			productRefGroup = 040ACACC207328BD00AC34CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040ACACA207328BD00AC34CE /* RPCitySelector */,
+				040ACAE2207328BD00AC34CE /* RPCitySelectorTests */,
+				040ACAED207328BD00AC34CE /* RPCitySelectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040ACAC9207328BD00AC34CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040ACADB207328BD00AC34CE /* LaunchScreen.storyboard in Resources */,
+				040ACAD8207328BD00AC34CE /* Assets.xcassets in Resources */,
+				040ACB1C20732ABD00AC34CE /* shop_area.sqlite in Resources */,
+				040ACAD6207328BD00AC34CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040ACAE1207328BD00AC34CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040ACAEC207328BD00AC34CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		174D8448185E19F400CFAB1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RPCitySelector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42D8C57B4CA98B59262B7D6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RPCitySelector/Pods-RPCitySelector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7C3CCA1379A0335446D52C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RPCitySelector/Pods-RPCitySelector-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040ACAC7207328BD00AC34CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040ACAD3207328BD00AC34CE /* ViewController.m in Sources */,
+				040ACB1F20732ABD00AC34CE /* RPCityCollectionFlowLayout.m in Sources */,
+				040ACB2220732ABD00AC34CE /* RPCityTableViewCell.m in Sources */,
+				040ACB2320732ABD00AC34CE /* RPCityViewController.m in Sources */,
+				040ACADE207328BD00AC34CE /* main.m in Sources */,
+				040ACB1B20732ABD00AC34CE /* RPAreaDataManager.m in Sources */,
+				040ACB1E20732ABD00AC34CE /* RPButton.m in Sources */,
+				040ACB1D20732ABD00AC34CE /* RPLocation.m in Sources */,
+				040ACB2420732ABD00AC34CE /* RPSearchView.m in Sources */,
+				040ACAD0207328BD00AC34CE /* AppDelegate.m in Sources */,
+				040ACB2120732ABD00AC34CE /* RPCityHeaderView.m in Sources */,
+				040ACB2020732ABD00AC34CE /* RPCityCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040ACADF207328BD00AC34CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040ACAE8207328BD00AC34CE /* RPCitySelectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040ACAEA207328BD00AC34CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040ACAF3207328BD00AC34CE /* RPCitySelectorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040ACAE5207328BD00AC34CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040ACACA207328BD00AC34CE /* RPCitySelector */;
+			targetProxy = 040ACAE4207328BD00AC34CE /* PBXContainerItemProxy */;
+		};
+		040ACAF0207328BD00AC34CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040ACACA207328BD00AC34CE /* RPCitySelector */;
+			targetProxy = 040ACAEF207328BD00AC34CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		040ACAD4207328BD00AC34CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040ACAD5207328BD00AC34CE /* Base */,
+				040ACB002073291C00AC34CE /* zh-Hans */,
+				040ACB022073292400AC34CE /* fr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040ACAD9207328BD00AC34CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040ACADA207328BD00AC34CE /* Base */,
+				040ACB012073291C00AC34CE /* zh-Hans */,
+				040ACB032073292400AC34CE /* fr */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040ACAF5207328BD00AC34CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		040ACAF6207328BD00AC34CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040ACAF8207328BD00AC34CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC43A9C279A9C46C566A9F50 /* Pods-RPCitySelector.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RPCitySelector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tencent.RPCitySelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		040ACAF9207328BD00AC34CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5408F55B1CA5973310C2274C /* Pods-RPCitySelector.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RPCitySelector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tencent.RPCitySelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		040ACAFB207328BD00AC34CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RPCitySelectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tencent.RPCitySelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPCitySelector.app/RPCitySelector";
+			};
+			name = Debug;
+		};
+		040ACAFC207328BD00AC34CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RPCitySelectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tencent.RPCitySelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPCitySelector.app/RPCitySelector";
+			};
+			name = Release;
+		};
+		040ACAFE207328BD00AC34CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RPCitySelectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tencent.RPCitySelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RPCitySelector;
+			};
+			name = Debug;
+		};
+		040ACAFF207328BD00AC34CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RPCitySelectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tencent.RPCitySelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RPCitySelector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040ACAC6207328BD00AC34CE /* Build configuration list for PBXProject "RPCitySelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040ACAF5207328BD00AC34CE /* Debug */,
+				040ACAF6207328BD00AC34CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040ACAF7207328BD00AC34CE /* Build configuration list for PBXNativeTarget "RPCitySelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040ACAF8207328BD00AC34CE /* Debug */,
+				040ACAF9207328BD00AC34CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040ACAFA207328BD00AC34CE /* Build configuration list for PBXNativeTarget "RPCitySelectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040ACAFB207328BD00AC34CE /* Debug */,
+				040ACAFC207328BD00AC34CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040ACAFD207328BD00AC34CE /* Build configuration list for PBXNativeTarget "RPCitySelectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040ACAFE207328BD00AC34CE /* Debug */,
+				040ACAFF207328BD00AC34CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040ACAC3207328BD00AC34CE /* Project object */;
+}

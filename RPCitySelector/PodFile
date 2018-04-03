@@ -1,0 +1,4 @@
+target 'RPCitySelector' do
+    pod 'Masonry'
+    pod 'FMDB'
+    end
